@@ -150,7 +150,7 @@
 .recipe-site-container .area {
     background: #c84e4e;
     background: -webkit-linear-gradient(to left, #fb8f8f, #c84e4e);
-    width: 100%;
+    width: 120%;
     height: 100vh;
 }
 
@@ -285,7 +285,7 @@
     background: #4e54c8;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
-    height: 100vh;
+    height: 200vh;
 }
 
 .index-site-container .circles {
@@ -320,7 +320,7 @@
     width: 20px;
     height: 20px;
     animation-delay: 2s;
-    animation-duration: 12s;
+    animation-duration: 50s;
 }
 
 .index-site-container .circles li:nth-child(3) {
@@ -335,7 +335,7 @@
     width: 60px;
     height: 60px;
     animation-delay: 0s;
-    animation-duration: 18s;
+    animation-duration: 40s;
 }
 
 .index-site-container .circles li:nth-child(5) {
@@ -364,7 +364,7 @@
     width: 25px;
     height: 25px;
     animation-delay: 15s;
-    animation-duration: 45s;
+    animation-duration: 80s;
 }
 
 .index-site-container .circles li:nth-child(9) {
@@ -372,7 +372,7 @@
     width: 15px;
     height: 15px;
     animation-delay: 2s;
-    animation-duration: 35s;
+    animation-duration: 60s;
 }
 
 .index-site-container .circles li:nth-child(10) {
