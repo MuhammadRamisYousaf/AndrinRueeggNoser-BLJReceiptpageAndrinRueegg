@@ -162,7 +162,7 @@
 
 .recipe-site-container {
     position: relative;
-    z-index: 1; /* Ensure the content is above the background animation */
+    z-index: 1; 
   }
 
 .recipe-site-container .context {
@@ -296,7 +296,7 @@
 
 .index-site-container {
     position: relative;
-    z-index: 2; /* Ensure the content is above the background animation */
+    z-index: 2; 
   }
 
 .index-site-container .context {
@@ -431,7 +431,7 @@
 
 .github-site-container {
     position: relative;
-    z-index: 2; /* Ensure the content is above the background animation */
+    z-index: 2; 
   }
 
 .github-site-container .context {
@@ -566,7 +566,7 @@
 
 .about-site-container {
     position: relative;
-    z-index: 2; /* Ensure the content is above the background animation */
+    z-index: 2;
   }
 
 .about-site-container .context {
