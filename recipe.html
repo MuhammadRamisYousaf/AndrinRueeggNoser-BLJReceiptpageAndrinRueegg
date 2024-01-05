@@ -142,7 +142,10 @@
     <div class="header">
       <div class="side-nav">
         <a href="http://127.0.0.1:3000/index.html" class="logo">
-          <img src="pancake.png" class="logo-img" />
+          <img  style="     transform: scale(0.9);
+          "src="pancake.png" class="logo-img"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';" />
         </a>
         <a class="line">
           <img src="blackline.png" class="blackline-img" />
@@ -164,7 +167,7 @@
       </div>
     </div>
 
-    <div class="index-site-container">
+    <div class="index-site-container" >
       <div class="context">
         <h1 style="margin-top: -25%; margin-left: -20.7%">
           Protein Pancake Recipe
@@ -176,53 +179,55 @@
         </h2>
 
         <p style="margin-left: 20.7%; margin-top: 1%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 5 g Butter
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient1">5 g Butter</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 50 g Flour
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient2">50 g Flour</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.5 tbsp Brown sugar
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient3">0.5 tbsp Brown sugar</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.25 packet Vanilla sugar
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient4">0.25 packet Vanilla sugar</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.5 tsp Baking powder
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient5">0.5 tsp Baking powder</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.06 tsp Salt
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient6">0.06 tsp Salt</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.75 dl Buttermilk or
-          Milk
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient7">0.75 dl Buttermilk or Milk</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.25 Fresh egg
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient8">0.25 Fresh egg</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> Butter for frying
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient9">Butter for frying</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 0.5 tbsp Maple syrup or
-          Honey
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient10">0.5 tbsp Maple syrup or Honey</span>
         </p>
         <p style="margin-left: 20.7%; margin-top: 0.5%; color: white">
-          <input type="checkbox" style="z-index: 6" /> 20 g Protein pulver
+            <input type="checkbox" style="z-index: 6" onclick="toggleStrikeThrough(this)" /> <span id="ingredient11">20 g Protein powder</span>
         </p>
         <img
-          style="width: 250px; margin-top: -10000px; margin-left: 1200px"
+          style="width: 250px; margin-top: -10000px; margin-left: 1200px;   transform: scale(0.9);" 
           src="cook.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
 
         <hr
-          style="margin-top: 20px; margin-left: 28%; width: 60%; color: white"
+          style="margin-top: 20px; margin-left: 28%; width: 60%; color: white;   transform: scale(0.9);"
         />
         <br />
         <h1 style="margin-left: -50%">Steps</h1>
         <img
           style="width: 100px; margin-top: -75px; margin-left: 500px"
-          src="steps.png"
+          src="steps.png" 
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <br />
         <h2 style="color: white; margin-left: 300px">
@@ -237,8 +242,11 @@
             margin-top: 30px;
             margin-left: 300px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step1.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <hr
           style="margin-top: 20px; margin-left: 550px; width: 60%; color: white"
@@ -257,8 +265,11 @@
             margin-top: 30px;
             margin-left: 920px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step2.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <hr
           style="margin-top: 20px; margin-left: 20.7%; width: 60%; color: white"
@@ -277,8 +288,11 @@
             margin-top: 30px;
             margin-left: 300px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step3.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <img
           style="
@@ -286,8 +300,11 @@
             margin-top: -1000px;
             margin-left: 920px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step34.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <hr
           style="margin-top: 20px; margin-left: 550px; width: 60%; color: white"
@@ -306,8 +323,11 @@
             margin-top: 30px;
             margin-left: 920px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step4.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <img
           style="
@@ -315,8 +335,11 @@
             margin-top: -1000px;
             margin-left: 300px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step5.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <hr
           style="margin-top: 20px; margin-left: 20.7%; width: 60%; color: white"
@@ -334,8 +357,11 @@
             margin-top: 30px;
             margin-left: 300px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step6.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <img
           style="
@@ -343,8 +369,11 @@
             margin-top: -4000px;
             margin-left: 920px;
             border-radius: 20px;
+            transform: scale(0.9);
           "
           src="step7.png"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';"
         />
         <hr
           style="margin-top: 20px; margin-left: 550px; width: 60%; color: white"
@@ -354,11 +383,12 @@
           Step 6: Enjoy your meal!
         </h2>
         
-        <a href="ProteinPancakeRecipe.pdf" download="file_name" class="btn"><i class="fa fa-download"></i> Download</a>
+        <a href="ProteinPancakeRecipe.pdf" download="ProteinPancakeRecipe" class="btn" style="width: 100%; margin-top: 5%;"><i class="fa fa-download"></i> Download</a>
       </div>
-
+      
+     
       <div class="area">
-        <ul class="circles">
+        <ul class="circles" style="pointer-events: none">
           <li></li>
           <li></li>
           <li></li>
@@ -376,6 +406,8 @@
           <li></li>
         </ul>
       </div>
+       
+
     </div>
   </body>
 </html>

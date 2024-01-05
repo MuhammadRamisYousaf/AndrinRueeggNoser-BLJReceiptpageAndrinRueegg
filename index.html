@@ -11,10 +11,13 @@
 
 <body>
     <div class="header">
-        <div class="side-nav">
-            <a href="http://127.0.0.1:3000/index.html" class="logo">
-                <img src="pancake.png" class="logo-img">
-            </a>
+      <div class="side-nav">
+        <a href="http://127.0.0.1:3000/index.html" class="logo">
+          <img  style="     transform: scale(0.9);
+          "src="pancake.png" class="logo-img"
+          onmouseover="this.style.transform = 'scale(1)';"
+          onmouseout="this.style.transform = 'scale(0.9)';" />
+        </a>
             <a class="line">
                 <img src="blackline.png" class="blackline-img">
             </a>
@@ -75,8 +78,9 @@
 
 
 
-        <div style="text-align: center;">
-                <img src="Protein_Pancakes.png" style="margin-top: 30px; margin-left: 30px; width: 600px;">
+        <div style="text-align: center; ">
+                <img src="Protein_Pancakes.png" onmouseover="this.style.transform = 'scale(1)';"
+                onmouseout="this.style.transform = 'scale(0.9)';" style="margin-top: 30px; margin-left: 30px; width: 600px;  transform: scale(0.9);">
             </div>
 
                 <h1 style="font-size: 30px; text-align: center; margin-left: 50px; margin-top: 15px; ">Welcome to my Website!</h1>
@@ -87,8 +91,8 @@
 
 
     </div>
-    <div class="area">
-        <ul class="circles">
+    <div class="area"> 
+        <ul class="circles" style="pointer-events: none">
             <li></li>
             <li></li>
             <li></li>
